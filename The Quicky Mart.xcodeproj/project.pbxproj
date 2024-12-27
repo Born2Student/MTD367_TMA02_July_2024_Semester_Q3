@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775F796F2C91C866000B4197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F796E2C91C866000B4197 /* AppDelegate.swift */; };
+		775F79712C91C866000B4197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F79702C91C866000B4197 /* SceneDelegate.swift */; };
+		775F79732C91C866000B4197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F79722C91C866000B4197 /* ViewController.swift */; };
+		775F79762C91C866000B4197 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 775F79752C91C866000B4197 /* Base */; };
+		775F79782C91C867000B4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775F79772C91C867000B4197 /* Assets.xcassets */; };
+		775F797B2C91C867000B4197 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 775F797A2C91C867000B4197 /* Base */; };
+		775F79862C91C867000B4197 /* The_Quicky_MartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F79852C91C867000B4197 /* The_Quicky_MartTests.swift */; };
+		775F79902C91C867000B4197 /* The_Quicky_MartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F798F2C91C867000B4197 /* The_Quicky_MartUITests.swift */; };
+		775F79922C91C867000B4197 /* The_Quicky_MartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F79912C91C867000B4197 /* The_Quicky_MartUITestsLaunchTests.swift */; };
+		7773003A2C93480C0097E72D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777300392C93480C0097E72D /* MapViewController.swift */; };
+		778A7BDB2C9309ED0094AF38 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A7BDA2C9309ED0094AF38 /* Clothing.swift */; };
+		778A7BDD2C930AAB0094AF38 /* ClothingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A7BDC2C930AAB0094AF38 /* ClothingCollectionViewCell.swift */; };
+		778A7BDF2C9320110094AF38 /* Electronic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A7BDE2C9320110094AF38 /* Electronic.swift */; };
+		778A7BE12C93278E0094AF38 /* ElectronicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A7BE02C93278E0094AF38 /* ElectronicCollectionViewCell.swift */; };
+		778A7BE32C9327B60094AF38 /* ElectronicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A7BE22C9327B60094AF38 /* ElectronicViewController.swift */; };
+		77D0B1972C943BA30058682C /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0B1962C943BA30058682C /* GesturesViewController.swift */; };
+		77D0B1992C9445850058682C /* ShopeeAdvert2019.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77D0B1982C9445850058682C /* ShopeeAdvert2019.mov */; };
+		77D632A72C9421FB00F0B58B /* CameraPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D632A62C9421FB00F0B58B /* CameraPhotosViewController.swift */; };
+		77E7AC5F2C92BDF6001B5D27 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7AC5E2C92BDF6001B5D27 /* CollectionTableViewCell.swift */; };
+		77E7AC612C92BE17001B5D27 /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7AC602C92BE17001B5D27 /* TileCollectionViewCell.swift */; };
+		77E7ACA32C92C703001B5D27 /* rebelsofourownkind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77E7ACA22C92C703001B5D27 /* rebelsofourownkind.mp3 */; };
+		77E7ACA92C92D116001B5D27 /* ClothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7ACA82C92D116001B5D27 /* ClothingViewController.swift */; };
+		77E7ACAC2C92D5B5001B5D27 /* FallOutfitsForMen.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77E7ACAB2C92D5B5001B5D27 /* FallOutfitsForMen.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775F79822C91C867000B4197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775F79632C91C866000B4197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775F796A2C91C866000B4197;
+			remoteInfo = "The Quicky Mart";
+		};
+		775F798C2C91C867000B4197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775F79632C91C866000B4197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775F796A2C91C866000B4197;
+			remoteInfo = "The Quicky Mart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775F796B2C91C866000B4197 /* The Quicky Mart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Quicky Mart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775F796E2C91C866000B4197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775F79702C91C866000B4197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775F79722C91C866000B4197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775F79752C91C866000B4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775F79772C91C867000B4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775F797A2C91C867000B4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775F797C2C91C867000B4197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775F79812C91C867000B4197 /* The Quicky MartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Quicky MartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775F79852C91C867000B4197 /* The_Quicky_MartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Quicky_MartTests.swift; sourceTree = "<group>"; };
+		775F798B2C91C867000B4197 /* The Quicky MartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Quicky MartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775F798F2C91C867000B4197 /* The_Quicky_MartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Quicky_MartUITests.swift; sourceTree = "<group>"; };
+		775F79912C91C867000B4197 /* The_Quicky_MartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Quicky_MartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		777300392C93480C0097E72D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		778A7BDA2C9309ED0094AF38 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		778A7BDC2C930AAB0094AF38 /* ClothingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingCollectionViewCell.swift; sourceTree = "<group>"; };
+		778A7BDE2C9320110094AF38 /* Electronic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronic.swift; sourceTree = "<group>"; };
+		778A7BE02C93278E0094AF38 /* ElectronicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicCollectionViewCell.swift; sourceTree = "<group>"; };
+		778A7BE22C9327B60094AF38 /* ElectronicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicViewController.swift; sourceTree = "<group>"; };
+		77D0B1962C943BA30058682C /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
+		77D0B1982C9445850058682C /* ShopeeAdvert2019.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ShopeeAdvert2019.mov; sourceTree = "<group>"; };
+		77D632A62C9421FB00F0B58B /* CameraPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPhotosViewController.swift; sourceTree = "<group>"; };
+		77E7AC5E2C92BDF6001B5D27 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		77E7AC602C92BE17001B5D27 /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCollectionViewCell.swift; sourceTree = "<group>"; };
+		77E7ACA22C92C703001B5D27 /* rebelsofourownkind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rebelsofourownkind.mp3; sourceTree = "<group>"; };
+		77E7ACA82C92D116001B5D27 /* ClothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingViewController.swift; sourceTree = "<group>"; };
+		77E7ACAB2C92D5B5001B5D27 /* FallOutfitsForMen.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = FallOutfitsForMen.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775F79682C91C866000B4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F797E2C91C867000B4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F79882C91C867000B4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775F79622C91C866000B4197 = {
+			isa = PBXGroup;
+			children = (
+				775F796D2C91C866000B4197 /* The Quicky Mart */,
+				775F79842C91C867000B4197 /* The Quicky MartTests */,
+				775F798E2C91C867000B4197 /* The Quicky MartUITests */,
+				775F796C2C91C866000B4197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775F796C2C91C866000B4197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775F796B2C91C866000B4197 /* The Quicky Mart.app */,
+				775F79812C91C867000B4197 /* The Quicky MartTests.xctest */,
+				775F798B2C91C867000B4197 /* The Quicky MartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775F796D2C91C866000B4197 /* The Quicky Mart */ = {
+			isa = PBXGroup;
+			children = (
+				775F796E2C91C866000B4197 /* AppDelegate.swift */,
+				775F79702C91C866000B4197 /* SceneDelegate.swift */,
+				775F79722C91C866000B4197 /* ViewController.swift */,
+				775F79742C91C866000B4197 /* Main.storyboard */,
+				775F79772C91C867000B4197 /* Assets.xcassets */,
+				775F79792C91C867000B4197 /* LaunchScreen.storyboard */,
+				775F797C2C91C867000B4197 /* Info.plist */,
+				77E7ACA22C92C703001B5D27 /* rebelsofourownkind.mp3 */,
+				77E7ACAB2C92D5B5001B5D27 /* FallOutfitsForMen.mov */,
+				77D0B1982C9445850058682C /* ShopeeAdvert2019.mov */,
+				77E7AC5E2C92BDF6001B5D27 /* CollectionTableViewCell.swift */,
+				77E7AC602C92BE17001B5D27 /* TileCollectionViewCell.swift */,
+				77E7ACA82C92D116001B5D27 /* ClothingViewController.swift */,
+				778A7BDA2C9309ED0094AF38 /* Clothing.swift */,
+				778A7BDC2C930AAB0094AF38 /* ClothingCollectionViewCell.swift */,
+				778A7BDE2C9320110094AF38 /* Electronic.swift */,
+				778A7BE02C93278E0094AF38 /* ElectronicCollectionViewCell.swift */,
+				778A7BE22C9327B60094AF38 /* ElectronicViewController.swift */,
+				777300392C93480C0097E72D /* MapViewController.swift */,
+				77D632A62C9421FB00F0B58B /* CameraPhotosViewController.swift */,
+				77D0B1962C943BA30058682C /* GesturesViewController.swift */,
+			);
+			path = "The Quicky Mart";
+			sourceTree = "<group>";
+		};
+		775F79842C91C867000B4197 /* The Quicky MartTests */ = {
+			isa = PBXGroup;
+			children = (
+				775F79852C91C867000B4197 /* The_Quicky_MartTests.swift */,
+			);
+			path = "The Quicky MartTests";
+			sourceTree = "<group>";
+		};
+		775F798E2C91C867000B4197 /* The Quicky MartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775F798F2C91C867000B4197 /* The_Quicky_MartUITests.swift */,
+				775F79912C91C867000B4197 /* The_Quicky_MartUITestsLaunchTests.swift */,
+			);
+			path = "The Quicky MartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775F796A2C91C866000B4197 /* The Quicky Mart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775F79952C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky Mart" */;
+			buildPhases = (
+				775F79672C91C866000B4197 /* Sources */,
+				775F79682C91C866000B4197 /* Frameworks */,
+				775F79692C91C866000B4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Quicky Mart";
+			productName = "The Quicky Mart";
+			productReference = 775F796B2C91C866000B4197 /* The Quicky Mart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775F79802C91C867000B4197 /* The Quicky MartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775F79982C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky MartTests" */;
+			buildPhases = (
+				775F797D2C91C867000B4197 /* Sources */,
+				775F797E2C91C867000B4197 /* Frameworks */,
+				775F797F2C91C867000B4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775F79832C91C867000B4197 /* PBXTargetDependency */,
+			);
+			name = "The Quicky MartTests";
+			productName = "The Quicky MartTests";
+			productReference = 775F79812C91C867000B4197 /* The Quicky MartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775F798A2C91C867000B4197 /* The Quicky MartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775F799B2C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky MartUITests" */;
+			buildPhases = (
+				775F79872C91C867000B4197 /* Sources */,
+				775F79882C91C867000B4197 /* Frameworks */,
+				775F79892C91C867000B4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775F798D2C91C867000B4197 /* PBXTargetDependency */,
+			);
+			name = "The Quicky MartUITests";
+			productName = "The Quicky MartUITests";
+			productReference = 775F798B2C91C867000B4197 /* The Quicky MartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775F79632C91C866000B4197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					775F796A2C91C866000B4197 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					775F79802C91C867000B4197 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 775F796A2C91C866000B4197;
+					};
+					775F798A2C91C867000B4197 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 775F796A2C91C866000B4197;
+					};
+				};
+			};
+			buildConfigurationList = 775F79662C91C866000B4197 /* Build configuration list for PBXProject "The Quicky Mart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775F79622C91C866000B4197;
+			productRefGroup = 775F796C2C91C866000B4197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775F796A2C91C866000B4197 /* The Quicky Mart */,
+				775F79802C91C867000B4197 /* The Quicky MartTests */,
+				775F798A2C91C867000B4197 /* The Quicky MartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775F79692C91C866000B4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E7ACAC2C92D5B5001B5D27 /* FallOutfitsForMen.mov in Resources */,
+				775F79782C91C867000B4197 /* Assets.xcassets in Resources */,
+				775F797B2C91C867000B4197 /* Base in Resources */,
+				775F79762C91C866000B4197 /* Base in Resources */,
+				77E7ACA32C92C703001B5D27 /* rebelsofourownkind.mp3 in Resources */,
+				77D0B1992C9445850058682C /* ShopeeAdvert2019.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F797F2C91C867000B4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F79892C91C867000B4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775F79672C91C866000B4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778A7BDB2C9309ED0094AF38 /* Clothing.swift in Sources */,
+				775F79732C91C866000B4197 /* ViewController.swift in Sources */,
+				77E7AC612C92BE17001B5D27 /* TileCollectionViewCell.swift in Sources */,
+				77E7ACA92C92D116001B5D27 /* ClothingViewController.swift in Sources */,
+				77D0B1972C943BA30058682C /* GesturesViewController.swift in Sources */,
+				775F796F2C91C866000B4197 /* AppDelegate.swift in Sources */,
+				775F79712C91C866000B4197 /* SceneDelegate.swift in Sources */,
+				778A7BE12C93278E0094AF38 /* ElectronicCollectionViewCell.swift in Sources */,
+				7773003A2C93480C0097E72D /* MapViewController.swift in Sources */,
+				778A7BE32C9327B60094AF38 /* ElectronicViewController.swift in Sources */,
+				77E7AC5F2C92BDF6001B5D27 /* CollectionTableViewCell.swift in Sources */,
+				778A7BDF2C9320110094AF38 /* Electronic.swift in Sources */,
+				778A7BDD2C930AAB0094AF38 /* ClothingCollectionViewCell.swift in Sources */,
+				77D632A72C9421FB00F0B58B /* CameraPhotosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F797D2C91C867000B4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F79862C91C867000B4197 /* The_Quicky_MartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F79872C91C867000B4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F79922C91C867000B4197 /* The_Quicky_MartUITestsLaunchTests.swift in Sources */,
+				775F79902C91C867000B4197 /* The_Quicky_MartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775F79832C91C867000B4197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775F796A2C91C866000B4197 /* The Quicky Mart */;
+			targetProxy = 775F79822C91C867000B4197 /* PBXContainerItemProxy */;
+		};
+		775F798D2C91C867000B4197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775F796A2C91C866000B4197 /* The Quicky Mart */;
+			targetProxy = 775F798C2C91C867000B4197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775F79742C91C866000B4197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775F79752C91C866000B4197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775F79792C91C867000B4197 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775F797A2C91C867000B4197 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775F79932C91C867000B4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow acces to take a picture for this video!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775F79942C91C867000B4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow acces to take a picture for this video!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775F79962C91C867000B4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YFB36B24R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Quicky Mart/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-Mart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775F79972C91C867000B4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YFB36B24R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Quicky Mart/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-Mart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775F79992C91C867000B4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-MartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Quicky Mart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Quicky Mart";
+			};
+			name = Debug;
+		};
+		775F799A2C91C867000B4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-MartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Quicky Mart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Quicky Mart";
+			};
+			name = Release;
+		};
+		775F799C2C91C867000B4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-MartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Quicky Mart";
+			};
+			name = Debug;
+		};
+		775F799D2C91C867000B4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.shawn.The-Quicky-MartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Quicky Mart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775F79662C91C866000B4197 /* Build configuration list for PBXProject "The Quicky Mart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F79932C91C867000B4197 /* Debug */,
+				775F79942C91C867000B4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775F79952C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky Mart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F79962C91C867000B4197 /* Debug */,
+				775F79972C91C867000B4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775F79982C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky MartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F79992C91C867000B4197 /* Debug */,
+				775F799A2C91C867000B4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775F799B2C91C867000B4197 /* Build configuration list for PBXNativeTarget "The Quicky MartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F799C2C91C867000B4197 /* Debug */,
+				775F799D2C91C867000B4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775F79632C91C866000B4197 /* Project object */;
+}
