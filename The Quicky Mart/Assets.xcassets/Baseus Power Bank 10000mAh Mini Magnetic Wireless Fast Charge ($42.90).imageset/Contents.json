@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Baseus Power Bank 10000mAh Mini Magnetic Wireless Fast Charge ($42.90).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

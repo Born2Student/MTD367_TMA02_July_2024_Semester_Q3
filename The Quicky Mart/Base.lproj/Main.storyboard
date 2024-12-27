@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4IC-9y-B2t">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kf0-8I-sBR">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4IC-9y-B2t" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="avR-HF-CyS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="7HF-g5-V85"/>
+                        <segue destination="I4t-GC-b8g" kind="relationship" relationship="viewControllers" id="bdl-6n-MrP"/>
+                        <segue destination="DOV-vq-vl3" kind="relationship" relationship="viewControllers" id="5Rq-rj-w6e"/>
+                        <segue destination="CCl-LH-aze" kind="relationship" relationship="viewControllers" id="LkD-fV-hjz"/>
+                        <segue destination="6jD-cf-2xP" kind="relationship" relationship="viewControllers" id="BpW-Ce-37B"/>
+                        <segue destination="HLg-iq-aNI" kind="relationship" relationship="viewControllers" id="OCd-j6-82W"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khs-bT-7E4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="-355"/>
+        </scene>
+        <!--Home Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Home Item" customClass="ViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mercantile" translatesAutoresizingMaskIntoConstraints="NO" id="NAC-cG-Gaf">
+                                <rect key="frame" x="0.0" y="115" width="393" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="aWf-gn-K01"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPq-yY-j4P">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zs-q1-xow" userLabel="Shopping Video">
+                                <rect key="frame" x="0.0" y="306" width="393" height="240"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.98039215686274506" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4zs-q1-xow" firstAttribute="top" secondItem="NAC-cG-Gaf" secondAttribute="bottom" constant="-3" id="0ST-hh-fGK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4zs-q1-xow" secondAttribute="bottom" constant="223" id="108-Vz-TfC"/>
+                            <constraint firstItem="4zs-q1-xow" firstAttribute="trailing" secondItem="NAC-cG-Gaf" secondAttribute="trailing" id="13R-Ee-Ikt"/>
+                            <constraint firstItem="NAC-cG-Gaf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EEd-r0-a1z"/>
+                            <constraint firstItem="MPq-yY-j4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WI9-7u-k5W"/>
+                            <constraint firstItem="MPq-yY-j4P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="l4O-To-xwQ"/>
+                            <constraint firstItem="NAC-cG-Gaf" firstAttribute="top" secondItem="MPq-yY-j4P" secondAttribute="bottom" constant="8" id="sJH-D9-6ZL"/>
+                            <constraint firstItem="NAC-cG-Gaf" firstAttribute="centerX" secondItem="MPq-yY-j4P" secondAttribute="centerX" id="u3f-7j-Zno"/>
+                            <constraint firstItem="MPq-yY-j4P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="wmh-kW-F7H"/>
+                            <constraint firstItem="4zs-q1-xow" firstAttribute="leading" secondItem="NAC-cG-Gaf" secondAttribute="leading" id="znb-GM-4rf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="GPp-ak-RQi"/>
+                    <connections>
+                        <outlet property="homeVideo" destination="4zs-q1-xow" id="0no-J4-B4v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-618" y="396"/>
+        </scene>
+        <!--Clothing Item-->
+        <scene sceneID="F84-RA-Tjw">
+            <objects>
+                <viewController title="ClothingItem" id="I4t-GC-b8g" userLabel="Clothing Item" customClass="ClothingViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Weu-Q5-gaV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quE-se-qyg">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akT-61-5Zo">
+                                <rect key="frame" x="16" y="131" width="361" height="66"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clothing Video">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="playClothingVideo:" destination="I4t-GC-b8g" eventType="touchUpInside" id="NSs-WX-beE"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-le-y5k">
+                                <rect key="frame" x="0.0" y="213" width="402" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AS8-G8-6Za">
+                                    <size key="itemSize" width="189" height="281"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ClothingCollectionViewCell" id="kzJ-Cm-pNq" customClass="ClothingCollectionViewCell" customModule="The_Quicky_Mart" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="189" height="281"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ZmX-e5-0HF">
+                                            <rect key="frame" x="0.0" y="0.0" width="189" height="281"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mcb-O7-X8g">
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="152"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeC-BR-the">
+                                                    <rect key="frame" x="16" y="150" width="155" height="76"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6h0-qG-CeX">
+                                                    <rect key="frame" x="16" y="220" width="155" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="customSize" width="189" height="281"/>
+                                        <connections>
+                                            <outlet property="clothingImageView" destination="mcb-O7-X8g" id="vR4-ec-S4a"/>
+                                            <outlet property="clothingPriceLabel" destination="6h0-qG-CeX" id="JyJ-4y-9nP"/>
+                                            <outlet property="clothingTitleLabel" destination="ZeC-BR-the" id="CSb-dA-JAI"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yWq-h6-zop"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="akT-61-5Zo" firstAttribute="leading" secondItem="Weu-Q5-gaV" secondAttribute="leadingMargin" id="2z0-NO-MMU"/>
+                            <constraint firstItem="3pU-le-y5k" firstAttribute="bottom" secondItem="yWq-h6-zop" secondAttribute="bottom" id="AvS-pB-caq"/>
+                            <constraint firstItem="3pU-le-y5k" firstAttribute="leading" secondItem="yWq-h6-zop" secondAttribute="leading" id="EKC-Wh-gap"/>
+                            <constraint firstItem="3pU-le-y5k" firstAttribute="top" secondItem="akT-61-5Zo" secondAttribute="bottom" constant="16" id="GZE-mw-7L7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3pU-le-y5k" secondAttribute="trailing" constant="-25" id="Jhn-ak-RyO"/>
+                            <constraint firstItem="quE-se-qyg" firstAttribute="leading" secondItem="yWq-h6-zop" secondAttribute="leading" constant="89" id="MmH-qJ-Ge0"/>
+                            <constraint firstItem="quE-se-qyg" firstAttribute="top" secondItem="yWq-h6-zop" secondAttribute="top" id="OFq-zY-Vbt"/>
+                            <constraint firstItem="akT-61-5Zo" firstAttribute="top" secondItem="quE-se-qyg" secondAttribute="bottom" constant="24" id="PXc-4h-ukW"/>
+                            <constraint firstItem="akT-61-5Zo" firstAttribute="centerX" secondItem="quE-se-qyg" secondAttribute="centerX" id="Q1X-f7-sVY"/>
+                            <constraint firstItem="yWq-h6-zop" firstAttribute="bottom" secondItem="akT-61-5Zo" secondAttribute="bottom" constant="572" id="ap4-9F-VSJ"/>
+                            <constraint firstItem="quE-se-qyg" firstAttribute="centerX" secondItem="Weu-Q5-gaV" secondAttribute="centerX" id="uVr-5O-jWZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Clothing" image="hanger" catalog="system" id="19V-7w-fKh"/>
+                    <connections>
+                        <outlet property="collectionView" destination="3pU-le-y5k" id="vE6-75-9MF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtD-WS-BJU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="404"/>
+        </scene>
+        <!--Artwork Item-->
+        <scene sceneID="j9b-Zh-bdv">
+            <objects>
+                <viewController title="Artwork" id="DOV-vq-vl3" userLabel="Artwork Item" customClass="ElectronicViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x5Z-U3-vKK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKS-qB-zmd">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hvu-Qr-Wth">
+                                <rect key="frame" x="-10" y="214" width="412" height="555"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0GC-5l-n7F">
+                                    <size key="itemSize" width="200" height="288"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ElectronicCollectionViewCell" id="uZb-NV-h0d" customClass="ElectronicCollectionViewCell" customModule="The_Quicky_Mart" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="288"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JYY-PR-Ftc">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="288"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Te-6h-yWQ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkM-tD-RlM">
+                                                    <rect key="frame" x="23" y="148" width="160" height="77"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTZ-7f-SbO">
+                                                    <rect key="frame" x="23" y="222" width="160" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="customSize" width="200" height="288"/>
+                                        <connections>
+                                            <outlet property="electronicImageView" destination="6Te-6h-yWQ" id="Un3-nS-ZWc"/>
+                                            <outlet property="electronicPriceLabel" destination="hTZ-7f-SbO" id="ViD-XZ-jof"/>
+                                            <outlet property="electronicTitleLabel" destination="UkM-tD-RlM" id="Snb-IY-r8S"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TO7-g9-yH4">
+                                <rect key="frame" x="16" y="130" width="361" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Electronics Video">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="playClothingVideo:" destination="I4t-GC-b8g" eventType="touchUpInside" id="bw4-Ni-lOr"/>
+                                    <action selector="playElectronicVideo:" destination="DOV-vq-vl3" eventType="touchUpInside" id="Jxa-58-JYC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f9e-Ul-6WF"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="OKS-qB-zmd" firstAttribute="top" secondItem="f9e-Ul-6WF" secondAttribute="top" id="1WD-cm-5wX"/>
+                            <constraint firstItem="OKS-qB-zmd" firstAttribute="leading" secondItem="f9e-Ul-6WF" secondAttribute="leading" constant="89" id="L28-NU-Ftb"/>
+                            <constraint firstItem="OKS-qB-zmd" firstAttribute="centerX" secondItem="x5Z-U3-vKK" secondAttribute="centerX" id="cDm-Zz-zAT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Electronics" image="wrench.and.screwdriver" catalog="system" id="DOs-VS-Nqa"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Hvu-Qr-Wth" id="6pP-I1-s97"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YiY-dO-p6B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809.92366412213732" y="395.77464788732397"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="rYM-c6-uj4">
+            <objects>
+                <viewController title="Map" id="CCl-LH-aze" customClass="MapViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Maa-U8-0NY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLo-hc-uhR">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9nq-Q6-smO">
+                                <rect key="frame" x="0.0" y="115" width="393" height="654"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xBN-M8-Vgs"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="9nq-Q6-smO" firstAttribute="top" secondItem="DLo-hc-uhR" secondAttribute="bottom" constant="8" id="8Ze-gz-vSf"/>
+                            <constraint firstItem="9nq-Q6-smO" firstAttribute="bottom" secondItem="xBN-M8-Vgs" secondAttribute="bottom" id="C8R-pg-dRC"/>
+                            <constraint firstItem="DLo-hc-uhR" firstAttribute="centerX" secondItem="Maa-U8-0NY" secondAttribute="centerX" id="NyR-FR-tca"/>
+                            <constraint firstItem="DLo-hc-uhR" firstAttribute="leading" secondItem="xBN-M8-Vgs" secondAttribute="leading" constant="89" id="Yfi-Gi-lD4"/>
+                            <constraint firstItem="9nq-Q6-smO" firstAttribute="leading" secondItem="xBN-M8-Vgs" secondAttribute="leading" id="aMq-Tp-s5b"/>
+                            <constraint firstItem="9nq-Q6-smO" firstAttribute="centerX" secondItem="DLo-hc-uhR" secondAttribute="centerX" id="e5z-5l-WxI"/>
+                            <constraint firstItem="DLo-hc-uhR" firstAttribute="top" secondItem="xBN-M8-Vgs" secondAttribute="top" id="gB2-o4-Lxe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="mappin.circle" catalog="system" id="TUl-oQ-3nN"/>
+                    <connections>
+                        <outlet property="map" destination="9nq-Q6-smO" id="AsV-Bj-MU1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4TC-ts-xwS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585.4961832061067" y="395.77464788732397"/>
+        </scene>
+        <!--Camera_Photos-->
+        <scene sceneID="66t-WY-35C">
+            <objects>
+                <viewController title="Camera_Photos" id="6jD-cf-2xP" customClass="CameraPhotosViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sb6-oF-izN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eva-lQ-j8h">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSH-fb-TdX">
+                                <rect key="frame" x="16" y="499" width="361" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="8Db-Fj-2vO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Camera"/>
+                                <connections>
+                                    <action selector="didTapButton" destination="6jD-cf-2xP" eventType="touchUpInside" id="jPd-Bn-Vhx"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ihH-Tl-TcO">
+                                <rect key="frame" x="16" y="115" width="361" height="368"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27I-vu-dy5">
+                                <rect key="frame" x="16" y="583" width="361" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="27I-vu-dy5" secondAttribute="height" multiplier="361:67" id="Qlg-Cs-Vnn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Photo Gallery"/>
+                                <connections>
+                                    <action selector="photoGalleryDidTapButton" destination="6jD-cf-2xP" eventType="touchUpInside" id="W0V-Cg-sNn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QGZ-fd-BzB"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="ihH-Tl-TcO" firstAttribute="top" secondItem="eva-lQ-j8h" secondAttribute="bottom" constant="8" id="0kE-GI-3Bu"/>
+                            <constraint firstItem="27I-vu-dy5" firstAttribute="top" secondItem="jSH-fb-TdX" secondAttribute="bottom" constant="17" id="1aK-NX-GhT"/>
+                            <constraint firstItem="QGZ-fd-BzB" firstAttribute="trailing" secondItem="27I-vu-dy5" secondAttribute="trailing" constant="16" id="58C-zF-3Hy"/>
+                            <constraint firstItem="ihH-Tl-TcO" firstAttribute="trailing" secondItem="jSH-fb-TdX" secondAttribute="trailing" id="APJ-uI-b7j"/>
+                            <constraint firstItem="eva-lQ-j8h" firstAttribute="top" secondItem="QGZ-fd-BzB" secondAttribute="top" id="BKf-Rq-BFO"/>
+                            <constraint firstItem="eva-lQ-j8h" firstAttribute="leading" secondItem="QGZ-fd-BzB" secondAttribute="leading" constant="89" id="E6S-lk-EH9"/>
+                            <constraint firstItem="27I-vu-dy5" firstAttribute="top" secondItem="jSH-fb-TdX" secondAttribute="bottom" constant="17" id="GHW-p0-M6Q"/>
+                            <constraint firstItem="eva-lQ-j8h" firstAttribute="centerX" secondItem="sb6-oF-izN" secondAttribute="centerX" id="HaW-Po-xVc"/>
+                            <constraint firstItem="ihH-Tl-TcO" firstAttribute="leading" secondItem="jSH-fb-TdX" secondAttribute="leading" id="V9g-Ba-bdF"/>
+                            <constraint firstItem="27I-vu-dy5" firstAttribute="leading" secondItem="jSH-fb-TdX" secondAttribute="leading" id="VnO-6U-zUQ"/>
+                            <constraint firstItem="QGZ-fd-BzB" firstAttribute="bottom" secondItem="27I-vu-dy5" secondAttribute="bottom" constant="119" id="WUb-RT-E5f"/>
+                            <constraint firstItem="27I-vu-dy5" firstAttribute="leading" secondItem="QGZ-fd-BzB" secondAttribute="leading" constant="16" id="Yjn-Iv-mRD"/>
+                            <constraint firstItem="27I-vu-dy5" firstAttribute="trailing" secondItem="jSH-fb-TdX" secondAttribute="trailing" id="hRR-rH-Rqy"/>
+                            <constraint firstItem="QGZ-fd-BzB" firstAttribute="bottom" secondItem="27I-vu-dy5" secondAttribute="bottom" constant="119" id="vXs-j4-aYe"/>
+                            <constraint firstItem="jSH-fb-TdX" firstAttribute="top" secondItem="ihH-Tl-TcO" secondAttribute="bottom" constant="16" id="y8b-Ga-5fa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" catalog="system" id="8vg-zs-r02"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="jSH-fb-TdX" id="NRd-uM-yoA"/>
+                        <outlet property="imageFrame" destination="ihH-Tl-TcO" id="h7r-7l-eEF"/>
+                        <outlet property="photoGalleryButton" destination="27I-vu-dy5" id="hB4-va-y3F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOk-Ng-K8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2374.8091603053435" y="395.77464788732397"/>
+        </scene>
+        <!--Gestures-->
+        <scene sceneID="4wJ-9c-LcE">
+            <objects>
+                <viewController title="Gestures" id="HLg-iq-aNI" customClass="GesturesViewController" customModule="The_Quicky_Mart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zx3-D4-ywt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Quicky Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS2-SN-MP6">
+                                <rect key="frame" x="89" y="59" width="214" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MC4-b4-Kdc">
+                                <rect key="frame" x="146" y="591" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Rgx-eb-BLL" appends="YES" id="MJQ-wQ-t6m"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CKh-zP-aOZ"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="eS2-SN-MP6" firstAttribute="top" secondItem="CKh-zP-aOZ" secondAttribute="top" id="rfY-6Z-UQ7"/>
+                            <constraint firstItem="eS2-SN-MP6" firstAttribute="centerX" secondItem="Zx3-D4-ywt" secondAttribute="centerX" id="ueg-GR-24l"/>
+                            <constraint firstItem="eS2-SN-MP6" firstAttribute="leading" secondItem="CKh-zP-aOZ" secondAttribute="leading" constant="89" id="yMG-Gj-Cww"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="character.book.closed.he" catalog="system" id="i7U-0F-UwV"/>
+                    <connections>
+                        <outlet property="indigoView" destination="MC4-b4-Kdc" id="ARM-qh-jye"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lN6-pR-8NV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Rgx-eb-BLL">
+                    <connections>
+                        <action selector="longPressed:" destination="HLg-iq-aNI" id="ish-AL-zdL"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3126" y="396"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mercantile" width="640" height="427"/>
+        <image name="camera" catalog="system" width="128" height="93"/>
+        <image name="character.book.closed.he" catalog="system" width="115" height="128"/>
+        <image name="hanger" catalog="system" width="128" height="99"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="mappin.circle" catalog="system" width="128" height="123"/>
+        <image name="wrench.and.screwdriver" catalog="system" width="128" height="119"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
