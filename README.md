@@ -1,4 +1,6 @@
-# MTD367_TMA02_July_2024_Semester_Q3
+# MTD367 - iOS Application Development
+
+# MTD367 Tutor-Marked Assignment 02 (TMAO2) Question 3 - July Semester 2024
 
 # Question 3
 
