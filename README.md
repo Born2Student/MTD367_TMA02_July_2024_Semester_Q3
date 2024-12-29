@@ -10,6 +10,9 @@ You are required to design and create an APP that facilitate “online shopping�
 
 The APP function should support “online shopping” of different items (clothing, artwork, electronic devices, etc.).
 
+![Screenshot 2024-12-29 at 7 12 15 PM](https://github.com/user-attachments/assets/7e35fedc-fbb9-4619-af2e-8a312535aacd)
+![Screenshot 2024-12-29 at 7 12 26 PM](https://github.com/user-attachments/assets/447021ef-0731-416a-beac-718b50bf4726)
+
 ## Installation Steps
 
 1. Clone the repository
